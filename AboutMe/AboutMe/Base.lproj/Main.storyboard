@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f2k-r8-jGO">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Me-->
+        <scene sceneID="IDx-0l-pRo">
+            <objects>
+                <viewController id="CIj-pC-VVn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KOi-Uh-pff">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN3-Xg-fBc">
+                                <rect key="frame" x="63" y="118" width="267" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-E4-7ph">
+                                <rect key="frame" x="30" y="174" width="333" height="142.33333333333337"/>
+                                <string key="text">Hi! I’m Akshat Singh, a B.Tech CSE student passionate about DSA, Web development, and iOS. I love turning ideas into real-world tech solutions—like my smart soil monitoring system, Agrisense, which earned recognition at a tech innovation event.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F5P-uP-aqg"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="F5P-uP-aqg" firstAttribute="trailing" secondItem="Iuj-E4-7ph" secondAttribute="trailing" constant="30" id="2RP-UY-j4O"/>
+                            <constraint firstItem="Iuj-E4-7ph" firstAttribute="leading" secondItem="F5P-uP-aqg" secondAttribute="leading" constant="30" id="3BO-Bj-vQU"/>
+                            <constraint firstItem="vN3-Xg-fBc" firstAttribute="leading" secondItem="F5P-uP-aqg" secondAttribute="leading" constant="63" id="BdK-Pz-sUb"/>
+                            <constraint firstItem="vN3-Xg-fBc" firstAttribute="top" secondItem="F5P-uP-aqg" secondAttribute="top" id="Xiz-4Z-usT"/>
+                            <constraint firstItem="Iuj-E4-7ph" firstAttribute="top" secondItem="vN3-Xg-fBc" secondAttribute="bottom" constant="20" id="k8j-Kw-w3h"/>
+                            <constraint firstItem="F5P-uP-aqg" firstAttribute="trailing" secondItem="vN3-Xg-fBc" secondAttribute="trailing" constant="63" id="w88-ti-TOG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Me" image="person" catalog="system" id="IrI-Uc-4DK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFR-fH-lGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1518.3206106870227" y="198.59154929577466"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="tHG-ku-tIj">
+            <objects>
+                <viewController id="Vwj-db-gCA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Vj-Y6-L3i">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbU-jG-l3d">
+                                <rect key="frame" x="63" y="118" width="267" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOu-8E-k8G">
+                                <rect key="frame" x="30" y="174" width="333" height="406"/>
+                                <string key="text">I enjoy a balanced mix of mental and physical activities that keep me sharp and motivated. My hobbies include:
+
+Reading – I like exploring tech articles, personal development books, and current trends in software engineering.
+
+Playing Outdoor Games – Sports help me stay active and develop teamwork and strategic thinking.
+
+Solving Problems – I regularly practice DSA problems and competitive programming to sharpen my analytical and coding skills.
+
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Wf-U3-JPv"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="nOu-8E-k8G" firstAttribute="leading" secondItem="6Wf-U3-JPv" secondAttribute="leading" constant="30" id="9Cn-7l-ona"/>
+                            <constraint firstItem="6Wf-U3-JPv" firstAttribute="trailing" secondItem="TbU-jG-l3d" secondAttribute="trailing" constant="63" id="D7c-pD-cLk"/>
+                            <constraint firstItem="6Wf-U3-JPv" firstAttribute="trailing" secondItem="nOu-8E-k8G" secondAttribute="trailing" constant="30" id="k70-pi-U7I"/>
+                            <constraint firstItem="TbU-jG-l3d" firstAttribute="leading" secondItem="6Wf-U3-JPv" secondAttribute="leading" constant="63" id="rga-4K-eG5"/>
+                            <constraint firstItem="nOu-8E-k8G" firstAttribute="top" secondItem="TbU-jG-l3d" secondAttribute="bottom" constant="20" id="uSe-HO-qwE"/>
+                            <constraint firstItem="TbU-jG-l3d" firstAttribute="top" secondItem="6Wf-U3-JPv" secondAttribute="top" id="xgH-Ht-SsI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="gamecontroller" catalog="system" id="Ina-n3-jE4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UeL-un-SEH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="199"/>
+        </scene>
+        <!--Contact Me-->
+        <scene sceneID="3Nj-Lt-z2O">
+            <objects>
+                <viewController id="red-mD-pl7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vtj-lA-aIm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkV-Oa-a2p">
+                                <rect key="frame" x="63" y="118" width="267" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8He-f6-SzR">
+                                <rect key="frame" x="30" y="173.99999999999997" width="333" height="304.33333333333326"/>
+                                <mutableString key="text">Feel free to reach out for collaboration, project opportunities, or just a good tech conversation. I’m always open to connecting with like-minded individuals.
+
+📧 Email – akshatsingh@example.com
+
+📱 Phone – +91-XXXXXXXXXX
+
+💼 LinkedIn – linkedin.com/in/akshat-singh
+
+💻 GitHub – github.com/akshat-singh
+
+I typically respond within 24 hours. Looking forward to connecting!</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bCC-li-9Q3"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="8He-f6-SzR" firstAttribute="top" secondItem="fkV-Oa-a2p" secondAttribute="bottom" constant="20" id="1BS-vh-ElR"/>
+                            <constraint firstItem="8He-f6-SzR" firstAttribute="leading" secondItem="bCC-li-9Q3" secondAttribute="leading" constant="30" id="I8d-f3-tZ9"/>
+                            <constraint firstItem="bCC-li-9Q3" firstAttribute="trailing" secondItem="8He-f6-SzR" secondAttribute="trailing" constant="30" id="KYx-LV-Hkd"/>
+                            <constraint firstItem="fkV-Oa-a2p" firstAttribute="top" secondItem="bCC-li-9Q3" secondAttribute="top" id="UMy-oT-a9G"/>
+                            <constraint firstItem="fkV-Oa-a2p" firstAttribute="leading" secondItem="bCC-li-9Q3" secondAttribute="leading" constant="63" id="dAW-0O-sEJ"/>
+                            <constraint firstItem="bCC-li-9Q3" firstAttribute="trailing" secondItem="fkV-Oa-a2p" secondAttribute="trailing" constant="63" id="pRt-YU-Y4f"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact Me" image="phone" catalog="system" id="hUG-SY-mOD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W2V-Yq-Pyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69" y="199"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NXr-ag-ofG">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="f2k-r8-jGO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JhS-ku-Ts9">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CIj-pC-VVn" kind="relationship" relationship="viewControllers" id="xrk-4C-idQ"/>
+                        <segue destination="Vwj-db-gCA" kind="relationship" relationship="viewControllers" id="Mp2-wU-TjH"/>
+                        <segue destination="red-mD-pl7" kind="relationship" relationship="viewControllers" id="P1S-2H-6az"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y2X-GO-kkR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="-642"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gamecontroller" catalog="system" width="128" height="79"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
