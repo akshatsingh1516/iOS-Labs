@@ -11,7 +11,7 @@
         <!--QuestionViewController-->
         <scene sceneID="cXn-k4-XBR">
             <objects>
-                <viewController title="QuestionViewController" id="ZWN-fJ-c5w" sceneMemberID="viewController">
+                <viewController title="QuestionViewController" id="ZWN-fJ-c5w" customClass="QuestionViewController" customModule="PersonalityQuizProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c3k-Kg-JoT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,6 +169,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="ylY-gH-nRS"/>
                     <connections>
+                        <outlet property="multiLabel1" destination="IgI-hG-hW0" id="DNM-HN-0Ex"/>
+                        <outlet property="multiLabel2" destination="aia-i5-VzX" id="dv9-wx-iax"/>
+                        <outlet property="multiLabel3" destination="ThS-aU-nYR" id="bw9-0q-gOk"/>
+                        <outlet property="multiLabel4" destination="yQo-wG-4yM" id="1Le-mo-9AM"/>
+                        <outlet property="multipleStackView" destination="vzp-F5-iGT" id="AMN-D1-P16"/>
+                        <outlet property="rangedStackView" destination="rsQ-EI-S0O" id="nfz-NZ-iMh"/>
+                        <outlet property="singleButton1" destination="ict-qi-Vfm" id="wrs-Pe-PeA"/>
+                        <outlet property="singleButton2" destination="sgf-yA-53k" id="L1M-7J-un7"/>
+                        <outlet property="singleButton3" destination="dQY-Jb-0qU" id="B18-pH-3wQ"/>
+                        <outlet property="singleButton4" destination="E6h-AO-GT5" id="eN3-lJ-GWb"/>
+                        <outlet property="singleStackView" destination="J7w-Wt-O9y" id="uhy-Zg-rf1"/>
                         <segue destination="j8e-wN-nrz" kind="show" identifier="Results" id="xa0-3w-1aR"/>
                     </connections>
                 </viewController>
@@ -254,7 +265,7 @@
         <!--Results-->
         <scene sceneID="72J-Zi-5MO">
             <objects>
-                <viewController id="j8e-wN-nrz" sceneMemberID="viewController">
+                <viewController id="j8e-wN-nrz" customClass="ResultsViewController" customModule="PersonalityQuizProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QZR-jZ-UFO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSY-ml-5GD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1802.2900763358778" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1844" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pbm-hm-YyY">
@@ -310,7 +321,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u6r-bh-olC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="72.51908396946564" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="121" y="4"/>
         </scene>
     </scenes>
     <resources>
